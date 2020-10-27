@@ -1,2 +1,9 @@
 # TodoList
-Todo list simples, com adição e exclusão de itens! 
+Todo list simples em javascript, com as funcionalidades de adição e exclusão de itens! 
+
+###Tecnologias: 
+
+* JS
+* CSS
+* HTML
+ 
