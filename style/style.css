@@ -1,0 +1,122 @@
+*{
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background-color: #3c153b;
+
+}
+
+.container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.container button{
+  border: none;
+  margin-top: 16px;
+  width: 150px;
+  height: 28px;
+  
+  font-size: 18px;
+  border-radius: 12px;
+  letter-spacing: 2px;
+
+  font-family: 'Anton', sans-serif;
+  
+  color: rgba(6, 44, 51, 0.979);
+  background-color: #00ff8873;
+}
+
+.container button:hover{
+  color: rgba(6, 44, 51, 0.979);
+  background-color: #00ff88e3;
+}
+
+
+input{
+
+  width: 400px;
+  height: 30px;
+  border-radius: 16px;
+}
+
+div#list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  color: whitesmoke;
+}
+
+div#list ul{
+  margin-left:50px ;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+div#list ul li {
+margin-bottom: 20px;
+}
+
+div#list ul li button {
+  margin-right:10px;
+  height: 30px;
+  width: 30px;
+
+  border-radius: 12px;
+  border: none;
+
+  background-color: rgba(219, 49, 19, 0.685);
+  color: aliceblue;
+  
+
+}
+
+div#list ul li button:hover {
+  height: 35px;
+  width: 35px;
+
+  font-size: 20pt;
+
+  background-color: rgb(255, 71, 38);
+  
+
+}
+
+@media screen and (max-width: 500px) {
+  input{
+
+    width: 350px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  input{
+
+    width: 280px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  input{
+
+    width: 230px;
+  }
+
+}
